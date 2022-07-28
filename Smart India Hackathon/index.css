@@ -1,0 +1,214 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #eaecf7;
+}
+.header {
+    padding: 45px 40px;
+    
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.header .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.header .flex .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-around;
+}
+
+.header .flex .buttons .button {
+    margin-left: 15px;
+    cursor: pointer;
+    border: 1px solid #6c6f8d;
+    color: #6c6f8d;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 4px;
+    
+}
+
+.header .flex .network span{
+    font-size: 30px;
+    color: #101e49;
+    font-weight: bold;
+}
+.header .flex .buttons .button a{
+    text-decoration: none;
+    color: #6c6f8d;
+}
+.header .flex .buttons .button:hover{
+    box-shadow: 1px 1px 10px grey;
+}
+/* .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+/* login page */
+.login{
+    margin: 100px auto;
+    background-color: white;
+ width: 280px;
+ /* height: 500px; */
+ height: 400px;
+ padding: 30px;
+ /* margin: auto; */
+ /* position: "absolute"; */
+ border-radius: 8px;
+ font-family: 'Prompt', sans-serif;
+}
+.log p{
+    color: rgb(61, 61, 73);
+    font-weight: bold;
+}
+.sociallinks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+.sociallinks .linkcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+.sociallinks .linkcontainer .instaicon{
+    text-decoration: none;
+    background-color: #E1306C;
+    color: white;
+    padding: 7px;
+    margin: 10px 0px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sociallinks .linkcontainer .githubicon{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 7px;
+    margin: 5px 0px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sociallinks .googleicon{
+    color: black;
+    border: 1px solid blue;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 20px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+.separator{
+    margin: 10px 0px;
+    font-size: 16px;
+    color: #5d6586;
+}
+.form .inputfield{
+    width: 95%;
+    padding: 7px;
+    margin: 20px 0px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+.form .inputpassword{
+    margin: 0px;
+}
+.form .passwordResetLink{
+    margin: 10px 0px;
+    color: rgb(59, 59, 185);
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 170px;
+}
+.BottomContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BottomContainer .submitButton{
+    width: 50%;
+    padding: 10px;
+    background-color: #2f89fc;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+.BottomContainer .submitButton:hover{
+    background-color: #1377fa;
+}
+.signup-link span{
+    font-size: 12px;
+    color: #565863;
+}
+.signup-link a{
+    text-decoration: none;
+    color: rgb(59, 59, 185);
+    font-size: 13px;
+}
+.signuppage{
+    background-color: rgb(190, 182, 182);
+ width: 280px;
+ height: 700px;
+ padding: 30px;
+ margin: auto;
+ /* position: "absolute"; */
+ border-radius: 8px;
+ font-family: 'Prompt', sans-serif;
+}
+/* sign up */
+.form .username{
+    display:flex;
+    margin-top: 20px;
+}
+.form .username .inputfieldsign{
+    width: 95%;
+    padding: 7px;
+    border-radius: 3px;
+    border:1px solid black;
+    margin-right: 5px;
+}
+.form .username .inputlastname{
+    margin-left: 5px;
+    margin-right: 0px;
+}
+@media only screen and (max-width: 670px) {
+    .header .flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .header .flex .buttons .button{
+        margin-top: 40px;
+    }
+}

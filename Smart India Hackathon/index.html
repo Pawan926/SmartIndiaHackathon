@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SIH</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand nav" href="#">SIH </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>Your all academics activities are here.</h1>
+    </div>
+
+    <!-- <form action=""> 
+        <select name="customers" onchange="showTheme(this.value)">
+        <option value="">Select a customer:</option>
+        <option value="ALFKI">Alfreds Futterkiste</option>
+        <option value="NORTS ">North/South</option>
+        <option value="WOLZA">Wolski Zajazd</option>
+        </select>
+        </form>
+     -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 secone">
+                <div class="section themesearch" id="events" >
+                    <label for="">Select your theme :</label>
+                    <div class="themeselect dropdownone">
+                        <select name="events" onchange="showTheme(this.value)">
+                            <option value="Seminar">Seminar</option>
+                            <option value="Workshop">Workshop</option>
+                            <option value="Conference">Conference</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 sectwo">
+                <div class="section instname">
+                    <label for="">Institute Name :</label>
+                    <div class="instselect dropdownone">
+                        <input type="text" placeholder="Type to search...">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 secthree">
+                <div class="section year">
+                    <label for="">Year :</label>
+                    <div class="yearselect dropdownone">
+                        <select name="" id="">
+                          <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 secfour">
+                <div class="section city">
+                    <label for="">City :</label>
+                    <div class="cityselect dropdownone">
+                        <select name="" id="">
+                            <option value="">Jaipur</option>
+                            <option value="">Jodhpur</option>
+                            <option value="">Ajmer</option>
+                            <option value="">Kota</option>
+                            <option value="">Udaiput</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 secfive">
+                <div class="section month">
+                    <label for="">Month :</label>
+                    <div class="monthselect dropdownone">
+                        <select name="" id="">
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 secsix">
+                <div class="section domainsearch">
+                    <label for="">Select your Domain :</label>
+                    <div class="domainselect dropdownone">
+                        <select name="" id="">
+                            <option value="">Web Development</option>
+                            <option value="">Mobile Application development</option>
+                            <option value="">Software development</option>
+                            <option value="">IOS development</option>
+                            <option value="">Artificial Intelligence and Machine Learning</option>
+                            <option value="">DBA (Database Administrator)</option>
+                            <option value="">Testing and Automation</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="searchbutton">
+        <button type="button" class="btn btn-info login">Search </button>
+    </div>
+    <div id="txtHint">Result will be shown here</div>
+    <script>
+        function showTheme(str) {
+  var xhttp;
+  if (str == "") {
+    document.getElementById("txtHint").innerHTML = "";
+    return;
+  }
+  xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("txtHint").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "connector.php?q="+str, true);
+  xhttp.send();
+alert (str);
+}
+</script>
+</body>
+
+</html>

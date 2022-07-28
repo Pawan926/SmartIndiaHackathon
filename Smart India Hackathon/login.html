@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Log In</title>
+</head>
+<body>
+    <div class="loginpage">
+        <!-- <div class="closebutton">
+            <i class="fa fa-times"></i>
+            <i class="fa fa-user" aria-hidden="true"></i>
+        </div> -->
+        <div class="login">
+            <div class="log">
+                <p>Log In</p>
+            </div>
+            <!-- <div class="sociallinks">
+                <div class="linkcontainer">
+                    <a href="" class="instaicon"> <i class="fab fa-instagram"></i> Log in with Instagram </a>
+                    <a href="" class="githubicon"> <i class="fab fa-github"></i> Log in with Github</a>
+                </div>
+                <a href="" class="googleicon"> <i class="fab fa-google"></i> Log in with Google</a>
+                <div class="separator">
+                    <span class="text">or</span>
+                </div>
+            </div> -->
+            <div class="form">
+                <span class="errorMsg"></span>
+                <form data-test="loginform-instance">
+                    <input type="text" class="inputfield" placeholder="Username or Email" name="username" required data-test="loginform-username">
+                    <input type="password" placeholder="Password" class="inputfield inputpassword" name="password" required data-test="loginform-password">
+                    <div class="passwordResetLink no-underline" data-test="loginform-resetpassword">
+                        Forget Password?
+                        <div class="clear"></div>
+                    </div>
+                    <div class="BottomContainer">
+                        <button class="submitButton" type="button" data-test="loginform-loginbutton">Log In</button>
+                        <div class="signup-link">
+                            <span>Don't have an account?</span>
+                            <a href="signup.html">Sign Up</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
